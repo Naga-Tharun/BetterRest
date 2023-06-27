@@ -86,11 +86,10 @@ struct ContentView: View {
                 }
                 
                 Section {
-                    Text("Recommended Bed Time \(Bedtime)")
+                    Text("\(Bedtime)")
                         .font(.headline)
-                    
-                    
-                    
+                } header: {
+                    Text("Recommended bed time")
                 }
             }
 //            .alert(alertTitle, isPresented: $showingAlert) {
